@@ -86,6 +86,9 @@
     <Content Include="Images\Button32x32.png" />
     <Content Include="Images\Button80x80.png" />
     <Content Include="Images\Close.png" />
+    <Content Include="Images\logo.png" />
+    <Content Include="qrcode.min.js" />
+    <Content Include="script.js" />
     <Content Include="Scripts\jquery-3.5.0.js" />
     <Content Include="Scripts\jquery-3.5.0.min.js" />
     <Content Include="Scripts\jquery-3.5.0.slim.js" />
@@ -562,6 +565,7 @@
     <Content Include="Scripts\Office\metadata\endpoints.xml" />
     <Content Include="Scripts\Office\metadata\features.xml" />
     <Content Include="Scripts\Office\MicrosoftAjax.js" />
+    <Content Include="sha1.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

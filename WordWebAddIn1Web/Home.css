@@ -1,12 +1,54 @@
-﻿/* Page-specific styling */
+﻿/*VKT Paypage specific styles*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800");
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
 
+th {
+    font-family: "Open Sans";
+    /*text-align: right;*/
+    padding: 5px;
+}
+
+h1 {
+    font-family: "Open Sans";
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: black;
+}
+
+input {
+    font-family: "Open Sans";
+}
+
+textarea {
+    font-family: "Open Sans";
+}
+
+.verplicht {
+    background: #8e005e;
+    color: white;
+}
+
+.belangrijk {
+    background: #c09632
+}
+
+
+
+/*Everything below this line came out of the box*/
+/* Page-specific styling */
 html {
     position: relative;
     min-height: 100%;
 }
+
 body {
     margin: 0 0 40px; /* bottom = footer height */
 }
+
 .footer {
     position: absolute;
     left: 0;
