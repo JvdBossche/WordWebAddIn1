@@ -8,7 +8,7 @@ function setAmount(val) {
 function calculateSha1() {
   //first, calculate the OrderID in the background
   dt = Number(new Date);
-  document.getElementById('ORDERID').value = "VKT_KHD19_"+dt;
+  document.getElementById('ORDERID').value = "VKT_TRAV_"+dt;
   
   var shaPassPhrase = "VlaamseKampeertoeristen2019";
   
